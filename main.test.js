@@ -92,7 +92,6 @@ describe('reverse', () => {
     expect(reverse('mesuara')).toBe('arausem')
   })
 })
-
 describe('onlyVowels', () => {
   it(`returns only the vowels from a word`, () => {
     expect(onlyVowels('Colin Jaffe')).toBe('oiae');
